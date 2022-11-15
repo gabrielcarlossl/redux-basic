@@ -1,3 +1,5 @@
+// Arquivo com os dados dos filmes que serão importados na STORE
+
 export const categories = [
     {
         id:1,
