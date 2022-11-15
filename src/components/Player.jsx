@@ -15,9 +15,11 @@ function Player({ selectedCategory, selectedMovie }) {
   )
 }
 
+// adiciona o mapStateToProps para pegar o que é passado da store para ser transformado em props
+
 const mapStateToProps = (store) => ({
   selectedCategory: store.MovieReducer.selectedCategory,
   selectedMovie: store.MovieReducer.selectedMovie,
 })
-
+// é feito a conexão do redux com o componente Player
 export default connect(mapStateToProps)(Player)

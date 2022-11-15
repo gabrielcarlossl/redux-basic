@@ -12,6 +12,7 @@ function Sidebar({ categories, selectMovie }) {
             {categories.map((category) => (
                 <div key={category.id}>
                     <h2>Category: {category.name}</h2>
+                    <hr />
 
                     <ul>
                         <h3>Movie Information</h3>

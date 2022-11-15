@@ -12,8 +12,10 @@ class App extends Component {
     return (
       <div className="App">
         <Provider store={store}>
-          <Sidebar></Sidebar>
-          <Player></Player>
+          <main>
+            <Sidebar></Sidebar>
+            <Player></Player>
+          </main>
         </Provider>
       </div>
     );
